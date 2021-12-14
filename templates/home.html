@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hasanov Projects</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='style.css') }}">
+</head>
+<body>
+<div class="wrapper">
+    <h1>Hazırda Kosmosda Nəqədər insan var ?</h1>
+    <h1 id="showPeopleText">Hazırda Kosmosda <b id="countPeople"></b> İnsan Var</h1>
+        <h1 class="loading" id="loading">:)</h1>
+    <h2><button id="getCountBtn">Click ET</button>  və öyrən !</h2>
+    <div id="list" class="list"></div>
+</div>
+
+<script src="{{ url_for('static',filename='script.js') }}"></script>
+</body>
+</html>
